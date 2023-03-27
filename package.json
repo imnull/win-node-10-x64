@@ -1,7 +1,6 @@
 {
   "name": "@imnull/win-node-10-x64",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node test",
@@ -9,10 +8,10 @@
     "postinstall": "node ./inst.js"
   },
   "bin": {
-    "node10invoke": "./invoke.js"
+    "node10invoke": "invoke.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "marvin",
   "license": "ISC",
   "dependencies": {
     "ffi": "^2.3.0",
@@ -24,5 +23,14 @@
     "@types/ffi": "^0.2.4",
     "@types/ref-array": "0.0.28",
     "typescript": "^5.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imnull/win-node-10-x64.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imnull/win-node-10-x64/issues"
+  },
+  "homepage": "https://github.com/imnull/win-node-10-x64#readme",
+  "description": ""
 }
